@@ -17,21 +17,21 @@
     <button type="button" class="btn btn-outline-primary btn-lg write" onclick="location.href='search.html'">Read Our Stories</button>
 </h1>
 <a href="#" class="back-page" onclick="location.href='profile.html'">&laquo; Back</a>
+<h1 style="text-align:center">Write Your Story</h1>
 <h1>Not sure where to start?</h1>
     <label for="prompts">Choose a prompt:</label>
-    <select name="story-prompts" id="prompts">
+    <select name="story-prompts" id="prompts" onchange="this.nextElementSibling.value=this.value">
+    <option></option>
     <option value="Family">Share a memory about a time spent with your parents/sibilings/etc.</option>
-    <option value="Childhood">Share a memory f</option>
+    <option value="Childhood">Share a memory</option>
     <option value="Struggles">Biggest lesson you learned</option>
     <option value="Current Thoughts">Advice to your past self</option>
+    <option value="Other">Other</option>
     </select>
-
-<form>
-  <input type="text" name="name" class="question" id="nme" required autocomplete="off"/>
-  <label for="nme"><span>Your Story</span></label>
-</form>
+<br><br>
+<h1>Your Story</h1>
+<textarea name="comment" form="usrform" style="width: 1200px; height: 300px;">Start writing here...</textarea>
 <br>
-<!-- ADD FUNCTION TO SUBMIT WORDS TO PROFILE -->
 <button type="button" class="btn btn-outline-primary btn-lg write" onclick="location.href='profile.html'">Publish</button>
 
 <br><br>
