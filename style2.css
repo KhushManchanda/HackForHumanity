@@ -29,9 +29,18 @@ html {
     color: white;
   }
 
+  a {
+    font-size: 27px;
+  }
+
   input,
   span,
-  label,
+  
+  label {
+    font-size: medium;
+    color: white;
+  }
+  
   textarea {
     font-family: 'Ubuntu', sans-serif;
     display: block;
