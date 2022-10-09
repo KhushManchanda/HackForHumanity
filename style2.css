@@ -1,7 +1,7 @@
 /*
 Basic input element using psuedo classes
 */
-
+​
 html {
     font-family: 'Lora', sans-serif;
     width: 100%;
@@ -28,10 +28,17 @@ html {
     margin-bottom: 2.5%;
     color: white;
   }
-
+​
+  a {
+    font-size: 27px;
+  }
   input,
   span,
-  label,
+
+  label {
+    font-size: medium;
+    color: white;
+  }
   textarea {
     font-family: 'Ubuntu', sans-serif;
     display: block;
@@ -44,7 +51,10 @@ html {
   .search-bar {
     padding-bottom: 2.5%;
   }
-
+​
+  .record {
+    padding-left: 25px;
+  }
   textarea:focus,
   input:focus {
     outline: 0;
@@ -305,14 +315,13 @@ body {
 }
 
 /* RESPONSIVE */
-
 @media (max-width: 1600px) {
   .cards {
     justify-content: center;
   }
 }
 @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&family=Varela+Round&display=swap');
-
+​
 body {
   font-family: "Tajawal", Arial;
 }
@@ -337,5 +346,3 @@ body {
 .card-6 {
   font-size: 20px;
 }
-
-
