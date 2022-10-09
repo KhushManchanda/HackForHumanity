@@ -5,8 +5,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>HomePage</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  
+  
   <link rel="stylesheet" type="text/css" href="style.css">
   
 
@@ -14,347 +16,52 @@
 </head>
 
 <body>
-  <div class="content-width">
-    <div class="d-flex justify-content-between">
-      <div class="heading p-2">
-        beingHuman
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+      <img id="logo" src="tellmemore.png" width="200px" height="auto" class="d-inline-block align-top" alt="">
+    </a>
+    
+    <div class=" nav navbar-nav">
+      
+        <div class="d-flex flex-row story">
+          <a class="nav-link p-2" href="#">Tell a Story</a>
+          <a class="nav-link p-2" href="#">Write a Story</a>
+          <a class="nav-link p-2" href="#">About our Mission</a>
+       
+      </div>
+  </nav>
+  <div class="main d-flex flex-row justify-content-around"">
+  <div class="d-flex flex-column hea p-2">
+    <div class="vertical-par p-2">
+      <b>Rediscover Meaning</b><br>
+      <b>Tell Your stories.</b><br>
+      <b>Inspire your loved ones</b><br>
+    </div>
+      <div class="small p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Donec ac dolor eget ex pharetra luctus. Phasellus vestibulum lacus ultricies diam aliquam, sit amet rutrum risus vehicula</div>
+      <div class="p-2 d-flex justify-content-start">
+        <div class="btns">
+        <button type="button" class="btn btn-primary">Tell a Story</button>
+        <button type="button" class="btn btn-primary">Write a Story</button>
+      </div>
       </div>
 
-      <div class="p-2">
-        <button type="button" class="btn btn-primary btn-lg write" onclick="location.href='write.html'">Write</button>
-      </div>
     </div>
-    <div class="slideshow">
-      <!-- Slideshow Items -->
-      <div class="slideshow-items">
-        <div class="item">
-          <div class="item-image-container">
-            <img class="item-image" src="https://i.pinimg.com/564x/23/a4/86/23a4860b8b70b1eb27f2791b97aaee8e.jpg" />
-          </div>
-          <!-- Staggered Header Elements -->
-          <div class="item-header">
-            <span class="vertical-part"><b>Write</b></span>
-            
-          </div>
-          <!-- Staggered Description Elements -->
-          <div class="item-description">
-            <span class="vertical-part">
-              <b>Khush Manchanda</b>
-            </span>
-            <span class="vertical-part">
-              <b>ipsum</b>
-            </span> 
-            <span class="vertical-part">
-              <b>dolor</b>
-            </span>
-            <span class="vertical-part">
-              <b>sit</b>
-            </span> 
-            <span class="vertical-part">
-              <b>amet,</b>
-            </span>
-            <span class="vertical-part">
-              <b>consectetur</b>
-            </span> 
-            <span class="vertical-part">
-              <b>adipiscing</b>
-            </span>
-            <span class="vertical-part">
-              <b>elit.</b>
-            </span> 
-            <span class="vertical-part">
-              <b>Pellentesque</b>
-            </span>
-            <span class="vertical-part">
-              <b>elementum</b>
-            </span> 
-            <span class="vertical-part">
-              <b>gravida</b>
-            </span>
-            <span class="vertical-part">
-              <b>ex</b>
-            </span> 
-            <span class="vertical-part">
-              <b>at</b>
-            </span>
-            <span class="vertical-part">
-              <b>maximus.</b>
-            </span> 
-            <span class="vertical-part">
-              <b>Nullam</b>
-            </span>
-            <span class="vertical-part">
-              <b>quis</b>
-            </span> 
-            <span class="vertical-part">
-              <b>leo</b>
-            </span>
-            <span class="vertical-part">
-              <b>ipsum.</b>
-            </span> 
-            <span class="vertical-part">
-              <b>Lorem</b>
-            </span>
-            <span class="vertical-part">
-              <b>ipsum</b>
-            </span> 
-            <span class="vertical-part">
-              <b>Nam</b>
-            </span> 
-            <span class="vertical-part">
-              <b>consectetur</b>
-            </span>
-            <span class="vertical-part">
-              <b>malesuada</b>
-            </span> 
-            <span class="vertical-part">
-              <b>blandit.</b>
-            </span>
-            <span class="vertical-part">
-              <b>Mauris</b>
-            </span> 
-            <span class="vertical-part">
-              <b>vulputate</b>
-            </span>
-            <span class="vertical-part">
-              <b>purus</b>
-            </span> 
-            <span class="vertical-part">
-              <b>id</b>
-            </span>
-            <span class="vertical-part">
-              <b>dolor</b>
-            </span> 
-            <span class="vertical-part">
-              <b>euismod</b>
-            </span>
-            <span class="vertical-part">
-              <b>varius.</b>
-            </span>      
-          </div>
-        </div>
-        <div class="item">
-          <div class="item-image-container">
-            <img class="item-image" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a1232e48702241.589f548dc6bee.jpg" />
-          </div>
-          <!-- Staggered Header Elements -->
-          <div class="item-header">
-            <span class="vertical-part"><b>Read</b></span>
-            
-          </div>
-          <!-- Staggered Description Elements -->
-          <div class="item-description">
-            <span class="vertical-part">
-              <b>Spotify</b>
-            </span>
-            <span class="vertical-part">
-              <b>ipsum</b>
-            </span>
-            <span class="vertical-part">
-              <b>dolor</b>
-            </span>
-            <span class="vertical-part">
-              <b>sit</b>
-            </span>
-            <span class="vertical-part">
-              <b>amet,</b>
-            </span>
-            <span class="vertical-part">
-              <b>consectetur</b>
-            </span>
-            <span class="vertical-part">
-              <b>adipiscing</b>
-            </span>
-            <span class="vertical-part">
-              <b>elit.</b>
-            </span>
-            <span class="vertical-part">
-              <b>Pellentesque</b>
-            </span>
-            <span class="vertical-part">
-              <b>elementum</b>
-            </span>
-            <span class="vertical-part">
-              <b>gravida</b>
-            </span>
-            <span class="vertical-part">
-              <b>ex</b>
-            </span>
-            <span class="vertical-part">
-              <b>at</b>
-            </span>
-            <span class="vertical-part">
-              <b>maximus.</b>
-            </span>
-            <span class="vertical-part">
-              <b>Nullam</b>
-            </span>
-            <span class="vertical-part">
-              <b>quis</b>
-            </span>
-            <span class="vertical-part">
-              <b>leo</b>
-            </span>
-            <span class="vertical-part">
-              <b>ipsum.</b>
-            </span>
-            <span class="vertical-part">
-              <b>Lorem</b>
-            </span>
-            <span class="vertical-part">
-              <b>ipsum</b>
-            </span>
-            <span class="vertical-part">
-              <b>Nam</b>
-            </span>
-            <span class="vertical-part">
-              <b>consectetur</b>
-            </span>
-            <span class="vertical-part">
-              <b>malesuada</b>
-            </span>
-            <span class="vertical-part">
-              <b>blandit.</b>
-            </span>
-            <span class="vertical-part">
-              <b>Mauris</b>
-            </span>
-            <span class="vertical-part">
-              <b>vulputate</b>
-            </span>
-            <span class="vertical-part">
-              <b>purus</b>
-            </span>
-            <span class="vertical-part">
-              <b>id</b>
-            </span>
-            <span class="vertical-part">
-              <b>dolor</b>
-            </span>
-            <span class="vertical-part">
-              <b>euismod</b>
-            </span>
-            <span class="vertical-part">
-              <b>varius.</b>
-            </span>
-          </div>
-        </div>
-        <div class="item">
-          <div class="item-image-container">
-            <img class="item-image" src="https://i2.wp.com/www.futuristarchitecture.com/wp-content/uploads/2016/11/fantastic-small-living-room-interior-idea-7.jpg?w=700&ssl=1" />
-          </div>
-          <!-- Staggered Header Elements -->
-          <div class="item-header">
-            <span class="vertical-part"><b>inspire</b></span>
-            
-          </div>
-          <!-- Staggered Description Elements -->
-          <div class="item-description">
-            <span class="vertical-part">
-              <b>Airbnb</b>
-            </span>
-            <span class="vertical-part">
-              <b>ipsum</b>
-            </span>
-            <span class="vertical-part">
-              <b>dolor</b>
-            </span>
-            <span class="vertical-part">
-              <b>sit</b>
-            </span>
-            <span class="vertical-part">
-              <b>amet,</b>
-            </span>
-            <span class="vertical-part">
-              <b>consectetur</b>
-            </span>
-            <span class="vertical-part">
-              <b>adipiscing</b>
-            </span>
-            <span class="vertical-part">
-              <b>elit.</b>
-            </span>
-            <span class="vertical-part">
-              <b>Pellentesque</b>
-            </span>
-            <span class="vertical-part">
-              <b>elementum</b>
-            </span>
-            <span class="vertical-part">
-              <b>gravida</b>
-            </span>
-            <span class="vertical-part">
-              <b>ex</b>
-            </span>
-            <span class="vertical-part">
-              <b>at</b>
-            </span>
-            <span class="vertical-part">
-              <b>maximus.</b>
-            </span>
-            <span class="vertical-part">
-              <b>Nullam</b>
-            </span>
-            <span class="vertical-part">
-              <b>quis</b>
-            </span>
-            <span class="vertical-part">
-              <b>leo</b>
-            </span>
-            <span class="vertical-part">
-              <b>ipsum.</b>
-            </span>
-            <span class="vertical-part">
-              <b>Lorem</b>
-            </span>
-            <span class="vertical-part">
-              <b>ipsum</b>
-            </span>
-            <span class="vertical-part">
-              <b>Nam</b>
-            </span>
-            <span class="vertical-part">
-              <b>consectetur</b>
-            </span>
-            <span class="vertical-part">
-              <b>malesuada</b>
-            </span>
-            <span class="vertical-part">
-              <b>blandit.</b>
-            </span>
-            <span class="vertical-part">
-              <b>Mauris</b>
-            </span>
-            <span class="vertical-part">
-              <b>vulputate</b>
-            </span>
-            <span class="vertical-part">
-              <b>purus</b>
-            </span>
-            <span class="vertical-part">
-              <b>id</b>
-            </span>
-            <span class="vertical-part">
-              <b>dolor</b>
-            </span>
-            <span class="vertical-part">
-              <b>euismod</b>
-            </span>
-            <span class="vertical-part">
-              <b>varius.</b>
-            </span>
-          </div>
-        </div>
-      </div>
-      <div class="controls">
-        <ul>
-          <li class="control" data-index="0"></li>
-          <li class="control" data-index="1"></li>
-          <li class="control" data-index="2"></li>
-        </ul>
-      </div>
+    <div class="p-2">
+      <div class="d-flex flex-column">
+      <b class="love">Stories we Love</b><br>
+      <div class="stories p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Donec ac dolor eget ex pharetra luctus. Phasellus vestibulum lacus ultricies diam aliquam, sit amet rutrum risus vehiculaorem ipsum dolor sit amet, consectetur adipiscing elit.Donec ac dolor eget ex pharetra luctus. Phasellus vestibulum lacus ultricies diam aliquam, sit amet rutrum risus vehicul</div>
+      <div class="p-2 name">Khush Manchanda</div>
     </div>
-  </div>
+      </div>
+          
+         
+          
+         
+  
+    
+    
+      
+  
   <script src="script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
