@@ -1,13 +1,11 @@
 /*
 Basic input element using psuedo classes
 */
-​
+
 html {
-    font-family: 'Lora', sans-serif;
+  font-family: 'Fira Mono', monospace;
     width: 100%;
-    /* background: #22222A; */
-	font-family: 'Fira Mono', monospace;
-    
+    /* background: #22222A; */    
   }
   
   body {

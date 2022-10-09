@@ -3,56 +3,53 @@ Basic input element using psuedo classes
 */
 
 html {
-    font-family: 'Lora', sans-serif;
-    width: 100%;
-    /* background: #22222A; */
-	font-family: 'Fira Mono', monospace;
-    
-  }
-  
-  body {
-    margin: 5% auto 0 auto;
-    width: 90%;
-    max-width: 1125px;
-    background: #22222A;
-  }
-  
-  h1 {
-    font-size: 28px;
-    margin-bottom: 2.5%;
-    color: white;
-  }
-  
-  h2 {
-    font-size: 50px;
-    margin-bottom: 2.5%;
-    color: white;
-  }
+  font-family: 'Fira Mono', monospace;
+  width: 100%;
+}
+
+body {
+  margin: 5% auto 0 auto;
+  width: 90%;
+  max-width: 1125px;
+  background: #22222A;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 2.5%;
+  color: white;
+}
+
+h2 {
+  font-size: 50px;
+  margin-bottom: 2.5%;
+  color: white;
+}
 
 .profilepic { border-radius: 50%; }
 
-  input,
-  span,
-  label {
-    color: white;
+input,
+span,
+label {
+  color: white;
+}
+textarea {
+  font-family: 'Ubuntu', sans-serif;
+  display: block;
+  margin: 10px;
+  padding: 5px;
+  border: none;
+  font-size: 22px;
+}
+
+@-webkit-keyframes appear {
+  100% {
+    opacity: 1;
   }
-  textarea {
-    font-family: 'Ubuntu', sans-serif;
-    display: block;
-    margin: 10px;
-    padding: 5px;
-    border: none;
-    font-size: 22px;
+}
+
+@keyframes appear {
+  100% {
+    opacity: 1;
   }
-  
-  @-webkit-keyframes appear {
-    100% {
-      opacity: 1;
-    }
-  }
-  
-  @keyframes appear {
-    100% {
-      opacity: 1;
-    }
-  }
+}
