@@ -33,7 +33,9 @@ html {
 
   input,
   span,
-  label,
+  label {
+    color: white;
+  }
   textarea {
     font-family: 'Ubuntu', sans-serif;
     display: block;
