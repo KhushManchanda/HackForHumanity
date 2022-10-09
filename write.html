@@ -30,20 +30,27 @@
     </select>
 <br><br>
 <h1>Your Story</h1>
-<textarea name="comment" form="usrform" style="width: 1200px; height: 300px;">Start writing here...</textarea>
+<textarea id="story" form="usrform" style="width: 1200px; height: 300px;">Start writing here...</textarea>
 <br>
-<button type="button" class="btn btn-outline-primary btn-lg write" onclick="location.href='profile.html'">Publish</button>
+
+<button type="button" name="publish" class="btn btn-outline-primary btn-lg write" onclick="publishFunction()">Publish</button>
+<script>
+    function publishFunction() {
+        const textarea = document.getElementById('story');
+        textarea.value = '';
+    }
+</script>
+
+<div class="record">
+<button type="button" class="btn btn-lg write" style="background: url(video.png);background-color: white; background-position: top-left; background-repeat:no-repeat; float: right">🔴</button>
+<button type="button" class="btn btn-lg write" style="background: url(mic.png); background-color: white; background-position: left; background-repeat:no-repeat; float: right">🔴</button>
+</div>
 
 <br><br>
-<h1>Record</h1>
-<button type="button" class="btn btn-outline-light btn-lg write">🔴</button>
-<br>
-
-<br>
 <h1>Add Recording</h1>
 <input type="file" accept="audio/*" capture id="recorder" />
 <audio id="player" controls></audio>
-
+<br><br><br><br><br>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonymous">

@@ -54,6 +54,10 @@ html {
     padding-bottom: 2.5%;
   }
 
+  .record {
+    padding-left: 25px;
+  }
+
   textarea:focus,
   input:focus {
     outline: 0;
